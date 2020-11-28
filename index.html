@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercice_composants</title>
+</head>
+<body>
+
+        <nav class="carte">
+            <img src="https://images.unsplash.com/photo-1512099053734-e6767b535838?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2128&q=80" alt="Lunette">
+            <div class="caption">
+                <h1>SAINT LAURENT CLASSIC SL 106 002</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque consequatur earum eum placeat? Fugiat minus fugit a incidunt voluptatem non?</p>
+                <span>45.00€</span>
+                <button class="button_carte">COMMANDER</button>
+            </div>
+        </nav> 
+        <!-- end .carte-->      
+
+        <form>
+            <h1>Inscription Newsletter</h1>
+            <div>
+                <label for="email">E-mail :</label> 
+                <input id="email" autofocus="autofocus"  name="subscriber_email" type="email" />
+            </div>
+            
+            <div>
+                <button class="button_newsletter" type="submit">S'abonner à la newsletter</button> 
+            </div>
+            <!-- end .Newsletter-->
+
+            <div class="success" role="alert">Félicitation ! Vous êtes inscrit</div>
+            <div class="info" role="alert">Ce mail existe déjà</div>
+            <div class="error" role="alert">Ce n'est pas un mail</div>
+            <!-- end .alerte-->
+            
+        </form>
+
+</body>        
